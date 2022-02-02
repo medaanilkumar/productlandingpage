@@ -1,0 +1,296 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+#header{
+    position: fixed;
+    top:1rem;
+    float: left;
+    width: 100%;
+}
+#header img{
+    width: 250px;
+    position: relative;
+    left: 3rem;
+}
+#nav-bar{
+    position: absolute;
+    right: 3px;
+    top:0.4rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 1rem;
+    width: 500px;
+    position: relative;
+    right: 3rem;
+    font-size: 25px;
+}
+ul li{
+    list-style-type: none;
+}
+
+#section1{
+    position: absolute;
+    top: 5rem; 
+    left: 38%;
+    right: 40%;
+    width: fit-content;
+    font-size: large;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    height: 30px;
+    padding-left: 0.5rem;
+}
+button{
+    width: 100px;
+    position: absolute;
+    top: 6rem;
+    padding: 0.5rem;
+}
+.container{
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    left: 2rem;
+    height: 80vh;
+}
+.container1{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   justify-items: center;
+    position: absolute;
+    top: 10rem;
+    text-align: center;
+  
+}
+.container1 i{
+    width: 200px;
+    height: 200px;
+} 
+.container1  h3{
+    text-align: start;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+#video{
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+    top:15rem;
+    right: 27rem;
+}
+#cards{
+    position: absolute;
+    top: 30rem;
+    right: 30rem;
+    height: 110%;
+    width:78%;
+    left: 9rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    line-height: 2rem;
+    justify-content: center;
+}
+#card1{
+    width: 550%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card1 h3{
+    width: 100%;
+    line-height: 1rem;
+    height: auto;
+    font-size: small;
+    display: inline-block;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #ddd;
+  
+}
+
+footer{
+    position: relative;
+    top: 55rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: #ddd; 
+}
+footer ul{
+    margin-top: 2rem;
+}
+footer p{
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    padding-top: 5rem;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;;
+}
+#header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+}
+#header #header-img{
+    padding-top: 1rem;
+    width: 300px;
+    object-fit: cover;
+    margin: 0.5rem 0rem;
+
+}
+#navbar{
+  
+    width: 100%;
+    margin-top: 1rem;
+}
+#navbar nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    float: right;
+    margin-right: 1rem;
+    font-size: 23px;
+}
+#navbar nav ul ol{
+   margin: 0.5rem 0rem;
+    display: flex;
+    align-self: center;
+}
+#form{
+    padding-top: 5rem;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items:center;
+    margin-bottom: 1rem;
+}
+#form h2{
+    margin-bottom: 1rem;
+}
+#form #email{
+    width: 300px;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+}
+#form .submit{
+    width: 100px;
+    margin-bottom: 1rem;
+    height: 50px;
+    background-color: lightyellow;
+}
+#features{
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid coral;
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 1rem;
+}
+.icon{
+    display: flex;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.flex video{
+    width: 500px;
+    margin-bottom: 3rem;
+}
+.cards{
+    display: flex;
+   gap: 3rem;
+    line-height: 3rem;
+
+}
+
+.cards .el1 h3{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+}
+.cards #elements{
+    width: 500px;
+    border: 1px solid black;
+    height: 300px;
+}
+.cards .el2{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.cards button{
+    color: black;
+    background-color: lightblue;
+    width: 100px;
+    height: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+footer {
+    display: block;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+footer > ul>li{
+    
+    list-style-type: none;
+}
+footer > ul>li>a{
+    text-decoration: none;
+}
+footer>span{
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar nav ul ol a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
